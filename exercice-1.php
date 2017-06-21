@@ -26,11 +26,12 @@ foreach( $viandes as $viande ){
 
 // Pour le fun : on crée un tableau indiquant s'il s'agit d'un ou d'une cliente :
 
-$whoOrdered = ["Un client a commandé une part de ", "Une cliente a commandé une part de "];
+$whoOrdered = ["Un client ", "Une cliente "];
 
 // Et on envoie.
 
-echo nl2br("Voici les commandes pour le buffet : \n\n");
+
+echo nl2br("Exercice 1, Niveau 2 :\n\n"."Voici les commandes pour le buffet : \n\n");
 
 // Pour chaque commande :
 
@@ -42,5 +43,7 @@ foreach( $commandes as $commande){
    
    // ... et on en sort la première clé, associée à la commande.
    
-   echo nl2br($whoOrdered[0]. $commande."."."\n");
+   echo nl2br($whoOrdered[0]."a commandé une part de ".$commande."."."\n");
 }
+
+?>
