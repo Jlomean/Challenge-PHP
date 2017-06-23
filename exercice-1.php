@@ -31,7 +31,7 @@ $whoOrdered = ["Un client ", "Une cliente "];
 // Et on envoie.
 
 
-echo nl2br("Exercice 1, Niveau 2 :\n\n"."Voici les commandes pour le buffet : \n\n");
+echo nl2br("<h2>Exercice 1, Niveau 2 :</h2>\n\n"."Voici les commandes pour le buffet : \n\n");
 
 // Pour chaque commande :
 
